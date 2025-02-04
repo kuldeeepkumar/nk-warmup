@@ -1,7 +1,5 @@
 // This exercise includes our basic first program of javascript
 
-import React from "react";
-
 const Exercise1 = () => {
   return (
     <div>

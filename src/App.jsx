@@ -1,9 +1,9 @@
 import "./App.css";
 
-import { useNavigate } from "react-router-dom"; // Ensure you import from "react-router-dom"
+import { useNavigate } from "react-router-dom";
 
 function App() {
-  const navigate = useNavigate(); // Rename 'navigation' to 'navigate' for consistency
+  const navigate = useNavigate();
 
   return (
     <>
@@ -11,6 +11,8 @@ function App() {
       <div></div>
       <div className="card">
         <button onClick={() => navigate("exercise1")}>Exercise 1</button>
+        <button onClick={() => navigate("exercise2")}>Exercise 2</button>
+        <button onClick={() => navigate("exercise3")}>Exercise 3</button>
       </div>
     </>
   );
